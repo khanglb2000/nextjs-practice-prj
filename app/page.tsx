@@ -1,5 +1,6 @@
 import { Inter } from "next/font/google";
 import Link from "next/link";
+import Posts from "./components/Posts";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,6 +13,7 @@ export default function Home() {
           I&apos;m <span className="font-bold">Khang</span>.
         </span>
       </p>
+      <Posts />
     </main>
 
     // <main className={inter.className}>
